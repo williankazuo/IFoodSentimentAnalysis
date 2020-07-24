@@ -1,0 +1,196 @@
+1595377886870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHNkDPY"
+1595377891235	Marionette	INFO	Listening on port 45777
+1595377891282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595377910623	Marionette	INFO	Stopped listening on port 45777
+1595378708070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWp2C7s"
+1595378711323	Marionette	INFO	Listening on port 41277
+1595378711380	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595378739282	Marionette	INFO	Stopped listening on port 41277
+1595378746530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles1KRcH"
+1595378749488	Marionette	INFO	Listening on port 44145
+1595378749539	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: "Unable to find a proper document to create the device-selector MenuButton for RDM"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:409:10
+
+console.error: "getLayout@resource://devtools/server/actors/styles.js:1013:5\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2245))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:1013:5)", "resource://devtools/shared/protocol/Front.js", 323))
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" "node is null"
+console.error: "getUsedFontFaces@resource://devtools/server/actors/styles.js:384:24\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Could not get the list of font families" (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:384:24)", "resource://devtools/shared/protocol/Front.js", 323))
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+1595378904799	Marionette	INFO	Stopped listening on port 44145
+1595378952092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD9SAwz"
+1595378955170	Marionette	INFO	Listening on port 35253
+1595378955203	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1595378991503	Marionette	INFO	Stopped listening on port 35253
+1595379088974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIDiNqV"
+1595379092146	Marionette	INFO	Listening on port 45819
+1595379092184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595379223989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile42dhY5"
+1595379227181	Marionette	INFO	Listening on port 42153
+1595379227203	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595379413322	Marionette	INFO	Stopped listening on port 42153
+1595379415567	Marionette	INFO	Stopped listening on port 45819
+1595379436190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilektC1rp"
+1595379439575	Marionette	INFO	Listening on port 36167
+1595379439602	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595379464942	Marionette	INFO	Stopped listening on port 36167
+1595379642417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilej9BL0c"
+1595379646234	Marionette	INFO	Listening on port 44187
+1595379646357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595379731339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyBRoih"
+1595379734074	Marionette	INFO	Stopped listening on port 44187
+1595379735334	Marionette	INFO	Listening on port 36651
+1595379735351	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+console.error: "Error while calling actor 'domnode's method 'getImageData'" "An attempt was made to use an object that is not, or is no longer, usable"
+console.error: "imageToImageData@resource://devtools/server/actors/inspector/utils.js:339:9\ngetImageData@resource://devtools/server/actors/inspector/node.js:633:32\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1595379814808	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile89qBn6"
+1595379818576	Marionette	INFO	Listening on port 34953
+1595379818619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595380059780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepo7nGj"
+1595380063703	Marionette	INFO	Listening on port 35193
+1595380063791	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595380134016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWTuqlf"
+1595380137905	Marionette	INFO	Listening on port 39497
+1595380137929	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1595380167638	Marionette	INFO	Stopped listening on port 34953
+1595380167656	Marionette	INFO	Stopped listening on port 35193
+1595380168829	Marionette	INFO	Stopped listening on port 39497
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1595380169453	Marionette	INFO	Stopped listening on port 36651
+1595380199207	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletOLCde"
+1595380203150	Marionette	INFO	Listening on port 37699
+1595380203274	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1595380373814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEnAE1k"
+1595380377526	Marionette	INFO	Listening on port 38419
+1595380377629	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 697))
+1595380434550	Marionette	INFO	Stopped listening on port 37699
+1595380478286	Marionette	INFO	Stopped listening on port 38419
+1595550053373	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesMDVIg"
+1595550057601	Marionette	INFO	Listening on port 42931
+1595550057619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595550381489	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9z6Yhh"
+1595550384932	Marionette	INFO	Listening on port 46417
+1595550384999	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595550426685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehTbUHy"
+1595550430152	Marionette	INFO	Listening on port 41195
+1595550430195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595550541757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCmEAFo"
+1595550545079	Marionette	INFO	Listening on port 44297
+1595550545165	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1595550718256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevoEeHY"
+1595550721549	Marionette	INFO	Listening on port 35049
+1595550721569	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1595550839335	Marionette	INFO	Stopped listening on port 46417
+1595550839349	Marionette	INFO	Stopped listening on port 41195
+1595550839443	Marionette	INFO	Stopped listening on port 42931
+1595550839503	Marionette	INFO	Stopped listening on port 44297
+1595550839600	Marionette	INFO	Stopped listening on port 35049
+1595550852003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileolPO3f"
+1595550855252	Marionette	INFO	Listening on port 46641
+1595550855312	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1595550893010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepD6lTc"
+1595550896338	Marionette	INFO	Listening on port 39775
+1595550896419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595550933317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePvroH2"
+1595550936566	Marionette	INFO	Listening on port 43857
+1595550936627	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595551483974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehnxtVI"
+1595551487465	Marionette	INFO	Listening on port 42969
+1595551487485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595551575862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemcBLvq"
+1595551579246	Marionette	INFO	Listening on port 41415
+1595551579271	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595551685227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1sSom1"
+1595551688650	Marionette	INFO	Listening on port 36571
+1595551688735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595552120474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileltvF5n"
+1595552123795	Marionette	INFO	Listening on port 33785
+1595552123883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595552191857	Marionette	INFO	Stopped listening on port 41415
+1595552191987	Marionette	INFO	Stopped listening on port 43857
+1595552192001	Marionette	INFO	Stopped listening on port 36571
+1595552192013	Marionette	INFO	Stopped listening on port 39775
+1595552192031	Marionette	INFO	Stopped listening on port 42969
+1595552192089	Marionette	INFO	Stopped listening on port 46641
+1595552192131	Marionette	INFO	Stopped listening on port 33785
+1595552197928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4tDBjI"
+1595552201098	Marionette	INFO	Listening on port 36127
+1595552201156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595552256801	Marionette	INFO	Stopped listening on port 36127
+1595552259276	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile00qMfR"
+1595552262525	Marionette	INFO	Listening on port 44167
+1595552262586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1595552368778	Marionette	INFO	Stopped listening on port 44167
