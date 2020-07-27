@@ -1,8 +1,9 @@
 import requests
-from bs4 import BeautifulSoup
-from selenium import webdriver
 import time
 import sys
+import pandas as pd
+from bs4 import BeautifulSoup
+from selenium import webdriver
 
 data = {
     'notas': [],
@@ -47,30 +48,66 @@ def listRestaurants():
         except:
             print(sys.exc_info()[0])
 
-    count = len(list_elements)
 
         
 if __name__ == "__main__":
     url = 'https://www.ifood.com.br/lista-restaurantes'
     
-    driver = webdriver.Chrome()
+    chromeOptions = webdriver.ChromeOptions()
+    chromeOptions.add_argument("--kiosk");
+    driver = webdriver.Chrome(chrome_options=chromeOptions)
     driver.get(url)
     time.sleep(3)
 
-    modalUseMyLocation = driver.find_element_by_class_name('btn-address--full-size')
-    modalUseMyLocation.click()
+
+    btnInputLocation = driver.find_element_by_class_name('address-search-input__button')
+    btnInputLocation.click()
+    time.sleep(3)
+    inputLocation = driver.find_elements_by_class_name('address-search-input__field')
+    inputLocation[1].send_keys('Oscar Freire, São Paulo')
     time.sleep(3)
 
-    countRestaurants = 0
-    loadMore = True
-    while loadMore:
-        listRestaurants(countRestaurants)
-        try:
-            btnLoadMore = driver.find_element_by_class_name('restaurants-list__load-more')
-        except:
-            loadMore = False
-            print(sys.exc_info()[0])
+    listAddress = driver.find_element_by_class_name('address-search-list')
+    listItem = listAddress.find_elements_by_tag_name('li')
+    listItem[0].click()
+    time.sleep(3)
+
+    try:
+        formNumberInput = driver.find_element_by_class_name('address-number__form')
+        checkAddressNoNumber = formNumberInput.find_element_by_id('addressEmptyNumber')
+        checkAddressNoNumber.click()
+        time.sleep(1)
+        btnSearchWithoutNumber = formNumberInput.find_element_by_class_name('btn--full-width')
+        btnSearchWithoutNumber.click()
+        time.sleep(3)
+    except:
+        print(sys.exc_info()[0])
+
+    btnConfirmAddress = driver.find_element_by_class_name('address-maps__submit')
+    btnConfirmAddress.click()
+    time.sleep(3)
+
+    divSaveAddress = driver.find_element_by_class_name('complete-address--save-btn')
+    btnSaveAddress = divSaveAddress.find_element_by_class_name('btn--full-width')
+    btnSaveAddress.click()
+    time.sleep(3)
+
+    # try:
+    #     for target_list in range(0, 30):
+    #         btnLoadMore = driver.find_element_by_class_name('restaurants-list__load-more')
+    #         btnLoadMore.click()
+    #         time.sleep(3)
+    # except:
+    #     print(sys.exc_info()[0])
             
+    
+    # listRestaurants()
+
+    # df = pd.DataFrame.from_dict(data)
+    # compression_opts = dict(method='zip',
+    #                     archive_name='out.csv')  
+    # df.to_csv('out.zip', index=False,
+    #           compression=compression_opts) 
 
 
     
