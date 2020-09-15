@@ -23,10 +23,17 @@ def getRating(driver):
 
 
 def listRestaurants():   
+    try:
+        for target_list in range(0, 30):
+            btnLoadMore = driver.find_element_by_class_name('restaurants-list__load-more')
+            btnLoadMore.click()
+            time.sleep(3)
+    except:
+        print(sys.exc_info()[0])
+
     list_elements = driver.find_elements_by_class_name('restaurant-card__wrapper')
     hrefs = list()
 
-    
     for elem in list_elements:
         hrefs.append(elem.get_attribute('href'))
     
@@ -49,22 +56,12 @@ def listRestaurants():
             print(sys.exc_info()[0])
 
 
-        
-if __name__ == "__main__":
-    url = 'https://www.ifood.com.br/lista-restaurantes'
-    
-    chromeOptions = webdriver.ChromeOptions()
-    chromeOptions.add_argument("--kiosk");
-    driver = webdriver.Chrome(chrome_options=chromeOptions)
-    driver.get(url)
-    time.sleep(3)
-
-
+def inputAddress(adrress):
     btnInputLocation = driver.find_element_by_class_name('address-search-input__button')
     btnInputLocation.click()
     time.sleep(3)
     inputLocation = driver.find_elements_by_class_name('address-search-input__field')
-    inputLocation[1].send_keys('Oscar Freire, São Paulo')
+    inputLocation[1].send_keys(adrress + ', São Paulo')
     time.sleep(3)
 
     listAddress = driver.find_element_by_class_name('address-search-list')
@@ -92,24 +89,36 @@ if __name__ == "__main__":
     btnSaveAddress.click()
     time.sleep(3)
 
-    # try:
-    #     for target_list in range(0, 30):
-    #         btnLoadMore = driver.find_element_by_class_name('restaurants-list__load-more')
-    #         btnLoadMore.click()
-    #         time.sleep(3)
-    # except:
-    #     print(sys.exc_info()[0])
-            
+if __name__ == "__main__":
+    url = 'https://www.ifood.com.br/lista-restaurantes'
     
-    # listRestaurants()
+    chromeOptions = webdriver.ChromeOptions()
+    # chromeOptions.add_argument("--kiosk");
+    driver = webdriver.Chrome(chrome_options=chromeOptions)
+    dfDistrict = pd.read_csv("./district.csv")
 
-    # df = pd.DataFrame.from_dict(data)
-    # compression_opts = dict(method='zip',
-    #                     archive_name='out.csv')  
-    # df.to_csv('out.zip', index=False,
-    #           compression=compression_opts) 
-
+    driver.get(url)
+    time.sleep(3)
+    inputAddress(dfDistrict['District'][0])    
+    listRestaurants()
 
     
+
+    for district in dfDistrict['District'][1:]:
+        driver.get(url)
+        time.sleep(3)
+        btnChangeAddress = driver.find_element_by_class_name('delivery-input')
+        btnChangeAddress.click()
+        time.sleep(2)
+        inputAddress(district)    
+        listRestaurants()
+
+
+
+    df = pd.DataFrame.from_dict(data)
+    compression_opts = dict(method='zip',
+                        archive_name='out.csv')  
+    df.to_csv('out.zip', index=False,
+              compression=compression_opts)     
     
         
